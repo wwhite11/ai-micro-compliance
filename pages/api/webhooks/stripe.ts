@@ -35,7 +35,12 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     switch (event.type) {
       case 'checkout.session.completed': {
         const session = event.data.object;
-        const userId = session.metadata.userId;
+        const userId = session.metadata?.userId;
+        
+        if (!userId) {
+          throw new Error('No userId in session metadata');
+        }
+        
         const subscription = await stripe.subscriptions.retrieve(session.subscription as string);
         const priceId = subscription.items.data[0].price.id;
         const planType = getPlanByPriceId(priceId);
