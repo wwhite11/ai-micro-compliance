@@ -1,0 +1,42 @@
+CONTRACT FOR SERVICES
+
+This is a poorly written contract with many compliance issues for testing purposes.
+
+1. PARTIES
+This agreement is between John and the Company.
+
+2. SERVICES
+The contractor will do some work for the client. The work includes various tasks as needed.
+
+3. PAYMENT
+Payment will be made when convenient. The amount is negotiable.
+
+4. TIMELINE
+The work should be done soon. There might be deadlines but they're flexible.
+
+5. INTELLECTUAL PROPERTY
+We both own the work. Or maybe just one of us does. It's not really clear.
+
+6. CONFIDENTIALITY
+Don't tell anyone about our business. Keep it secret.
+
+7. TERMINATION
+Either party can end this whenever they want.
+
+8. DISPUTES
+If we have problems, we'll figure it out somehow.
+
+9. SIGNATURES
+Signed by: _________________
+Date: _________________
+
+This contract is intentionally poorly written for testing purposes and contains multiple compliance issues including:
+- Vague and unclear terms
+- Missing essential clauses
+- Unclear payment terms
+- Inadequate legal protections
+- No governing law specified
+- No dispute resolution process
+- Ambiguous intellectual property ownership
+- No confidentiality duration
+- No termination notice requirements 
