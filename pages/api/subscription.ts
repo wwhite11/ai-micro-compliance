@@ -33,7 +33,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     return res.status(200).json({
       plan: user.subscription.plan,
       status: user.subscription.status,
-      priceId: user.subscription.stripePriceId,
+      priceId: user.subscription.stripeSubscriptionId,
       currentPeriodEnd: user.subscription.currentPeriodEnd,
       docsPerMonth: plan.docsPerMonth,
     });
