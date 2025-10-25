@@ -1,5 +1,9 @@
 import mongoose from "mongoose";
 
+declare global {
+  var mongoose: any;
+}
+
 let cached: any = global.mongoose || { conn: null, promise: null };
 
 export default async function dbConnect() {
